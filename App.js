@@ -1,11 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import GetStartView from './View/GetStartView';
+import InfoView from './View/InfoView';
 
 export default function App() {
   return (
     <View style={styles.container}>
-     <GetStartView/>
+      <InfoView/>
     </View>
   );
 }
@@ -13,8 +14,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor:'#FBFBFB',
+    
+    padding:20
   },
 });
