@@ -2,21 +2,22 @@ import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React, { useState } from 'react'
 import home from '../assets/home.png'
 import folder from '../assets/folder.png'
-import bell from '../assets/bell.png'
+import bell from '../assets/Bell.png'
 import Bbell from '../assets/Bbell.png'
 import user from '../assets/user.png'
 import Bhome from '../assets/Bhome.png'
 import Bfolder from '../assets/Bfolder.png'
 import Buser from '../assets/Buser.png'
+import { useNavigation } from '@react-navigation/native'
 
 
 
 
 const NavBar = () => {
-  const [iconClick, setIconClick] = useState('home')
-
+  const [iconClick, setIconClick] = useState('info')
 
   const NavIcon = (props) => {
+    const navigation = useNavigation();
 
 
 
@@ -24,13 +25,13 @@ const NavBar = () => {
       <View>
         {iconClick == props.title ? (
 
-          <TouchableOpacity onPress={() => { setIconClick(props.title) }}>
+          <TouchableOpacity onPress={() => {{ setIconClick(props.title) ,navigation.navigate(props.title)}}}>
             <View>
               <Image style={styles.homeStyle} source={props.bImage} />
             </View>
           </TouchableOpacity>
         ) : (
-          <TouchableOpacity onPress={() => { setIconClick(props.title) }}>
+          <TouchableOpacity onPress={() => {{ setIconClick(props.title) ,navigation.navigate(props.title)}}}>
             <Image style={styles.homeStyle} source={props.gImage}></Image>
           </TouchableOpacity>
         )}
@@ -46,17 +47,17 @@ const NavBar = () => {
     <View style={styles.pageStyle}>
       <View style={styles.navbarStyle}>
 
-        <NavIcon title="home" gImage={home} bImage={Bhome} />
+        <NavIcon title="info" gImage={home} bImage={Bhome} />
 
-        <NavIcon title="folder" gImage={folder} bImage={Bfolder} />
+        <NavIcon title="wallet" gImage={folder} bImage={Bfolder} />
 
         <NavIcon title="bell" gImage={bell} bImage={Bbell} />
 
         <NavIcon title="user" gImage={user} bImage={Buser} />
 
-      </View>
+      </View></View>
 
-    </View>
+   
   )
 }
 
@@ -64,7 +65,7 @@ export default NavBar
 
 const styles = StyleSheet.create({
   pageStyle: {
-    flex: 1,
+    
     backgroundColor: '#F9F9F9',
 
   },
@@ -77,7 +78,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingVertical: 20,
     paddingHorizontal: 33,
-    bottom: 10,
+    bottom: 1,
     justifyContent: 'space-between'
   },
   homeStyle: {
@@ -85,5 +86,26 @@ const styles = StyleSheet.create({
     height: 27,
 
   },
-  
+  folderStyle: {
+    width: 30,
+    height: 30,
+
+  },
+  notifiStyle: {
+    width: 30,
+    height: 30,
+
+  },
+  userStyle: {
+    width: 30,
+    height: 30,
+
+  },
+  opcStyle: {
+    width: 35,
+    height: 35,
+    backgroundColor: 'green'
+
+
+  }
 })

@@ -1,0 +1,49 @@
+[
+    {
+        "img" : "https://th.bing.com/th/id/OIP.x6ni2ldNjTaEz5AgG3AD1QHaGx?pid=ImgDet&w=600&h=549&rs=1",
+        "country": "Switzerland",
+        "cost": "$20000",
+        "src2" :"https://th.bing.com/th/id/R.902761daf2e4723d3e8e5bff32e28819?rik=3ruwNgCebHhmkw&pid=ImgRaw&r=0",
+        "long" : "Switzerland, officially the Swiss Confederation, is a landlocked country located at the confluence of Western, Central and Southern Europe. It is bordered by Italy to the south, France to the west, Germany to the north and Austria and Liechtenstein to the east."
+    },
+    {
+        "img" : "https://th.bing.com/th/id/OIP.kEpC1AxJcTqqyy72I0j8rgHaHa?pid=ImgDet&w=600&h=600&rs=1",
+        "country": "Ireland",
+        "cost": "$25000",
+        "src2": "https://th.bing.com/th/id/R.c9f9e4a41f0706c1006ae55ab858eec1?rik=VO8202g7YnslEQ&pid=ImgRaw&r=0",
+        "long" : "Ireland is an island in the North Atlantic Ocean, in north-western Europe. It is separated from Great Britain to its east by the North Channel, the Irish Sea, and St George's Channel. Ireland is the second-largest island of the British Isles, the third-largest in Europe, and the twentieth-largest in the world."
+    },
+    {
+        "img" : "https://th.bing.com/th/id/R.67537c166c8057947288dfdd7144e987?rik=VRUXVlj5E5FqUQ&riu=http%3a%2f%2fwww.holbrooktravel.com%2fsites%2fdefault%2ffiles%2fstyles%2fcard_preview_480_wide%2fpublic%2fTHUMB-Kenya--Eric-Lindberg.jpg%3fitok%3dZ8f_gurQ&ehk=HVA4eNSpiMg9OxZiZE4RKvQUjO60i1%2bvDYtyI%2btNTZk%3d&risl=&pid=ImgRaw&r=0",
+        "country": "Tanzania",
+        "cost": "$78000",
+        "src2": "https://th.bing.com/th/id/R.dd162896ed6089beb144163c747f4cb3?rik=pAktieIgU%2bFYXg&riu=http%3a%2f%2fcristimoise.files.wordpress.com%2f2012%2f12%2f17mount-kilimanjaro.jpg&ehk=1ACbrHUVYp7Nh5A3wrEHSpUTogoJVPk7DncbR4OdOZo%3d&risl=&pid=ImgRaw&r=0",
+        "long" : "Tanzania , officially the United Republic of Tanzania (Swahili: Jamhuri ya Muungano wa Tanzania), is a country in East Africa within the African Great Lakes region. It borders Uganda to the north; Kenya to the northeast; the Indian Ocean to the east; Mozambique and Malawi to the south; Zambia to the southwest; "
+
+    },
+    {
+        "img" : "https://th.bing.com/th/id/OIP.WO2jiQ2l6oskwS-hzLHmowDHEs?pid=ImgDet&rs=1",
+        "country": "Cayman Islands",
+        "cost": "$32000",
+        "src2": "https://th.bing.com/th/id/R.5d8b164d7f1235181558a8ffabaeabf2?rik=lWWsSw63COFV3g&pid=ImgRaw&r=0",
+        "long" : "The Cayman Islands is a self-governing British Overseas Territory, and the largest by population. The 264-square-kilometre (102-square-mile) territory comprises the three islands of Grand Cayman, Cayman Brac and Little Cayman, which are located to the south of Cuba and northeast of Honduras, between Jamaica"
+
+    },
+    {
+        "img" : "https://thumbs.dreamstime.com/b/antarctic-peninsula-snowy-mountains-ice-floe-ocean-sunny-skies-46085054.jpg",
+        "country": "Antarctica",
+        "cost": "$50000",
+        "src2": "https://www.e-mc2.gr/sites/default/files/styles/800x445/public/2020-04/arc.jpg?itok=_ZunSXT5",
+        "long" : "Antarctica (/ænˈtɑːrktɪkə/ (listen))[note 1] is Earth's southernmost and least-populated continent. Situated almost entirely south of the Antarctic Circle and surrounded by the Southern Ocean (also known as the Antarctic Ocean), it contains the geographic South Pole. Antarctica is the fifth-largest continent, being about 40% larger than Europe, and has an area of 14,200,000 km2 (5,500,000 sq mi). "
+
+    },
+    {
+        "img" : "https://th.bing.com/th/id/OIP.FKm82sYqLwBxhV0r8fYJSAHaFj?pid=ImgDet&rs=1",
+        "country": "Dolomites",
+        "cost": "$13000",
+        "src2": "https://th.bing.com/th/id/OIP.ewHmnChIZ5n5gHTeMc-u9wHaEI?pid=ImgDet&rs=1",
+        "long" : "The Dolomites , also known as the Dolomite Mountains, Dolomite Alps or Dolomitic Alps, are a mountain range in northeastern Italy. They form part of the Southern Limestone Alps and extend from the River Adige in the west to the Piave Valley (Pieve di Cadore) in the east."
+
+    }
+    
+]

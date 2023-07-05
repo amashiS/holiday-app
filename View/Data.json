@@ -1,0 +1,51 @@
+[
+    {
+        "src" : "https://th.bing.com/th/id/OIP.-WJzLXolwRrwY1hD1ILxUgHaLH?pid=ImgDet&rs=1",
+        "country": "London",
+        "cost": "$10000",
+        "src2" : "https://wallpaperaccess.com/full/32545.jpg",
+        "long" : "London is the capital and largest city of England and the United Kingdom. The city stands on the River Thames in the south-east of England, at the head of its 50-mile (80 km) estuary leading to the North Sea.London has been a major settlement for two millennia, and was originally called Londinium, which was founded by the Romans."
+
+
+    },
+    {
+        "src": "https://th.bing.com/th/id/OIP.UvU041CQvRLWlIZw_aK-3gHaJQ?pid=ImgDet&rs=1",
+        "country": "paris",
+        "cost": "$15000",
+        "src2" : "https://th.bing.com/th/id/OIP.cd8n96bVeiUk2WVDtJVQlQHaE8?pid=ImgDet&w=675&h=450&rs=1",
+        "long" : "Paris is the capital and most populous city of France, with an official estimated population of 2,102,650 residents as of 1 January 2023 in an area of more than 105 km² (41 sq mi), making it the fourth-most populated city in the European Union as well as the 30th most densely populated city in the world in 2022. Since the 17th century. "
+
+    },
+    {
+        "src" : "https://th.bing.com/th/id/R.46051ea110452cf5a45fcec54168df33?rik=kNhdFyvIbMW11A&pid=ImgRaw&r=0",
+        "country": "Bali",
+        "cost": "$35000",
+        "src2" : "https://cdn.celebritybiographywiki.com/wp-content/uploads/2019/12/16070123/9-Bali-min.jpg",
+        "long" : "Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands and the easternmost of the Sunda Shelf. East of Java and west of Lombok, the province includes the island of Bali and a few smaller offshore islands, notably Nusa Penida, Nusa Lembongan, and Nusa Ceningan to the southeast. "
+
+    },
+    {
+        "src" : "https://th.bing.com/th/id/OIP.3sDVdt5zxHX9lrmRtyN4IgHaE7?pid=ImgDet&rs=1",
+        "country": "Rome",
+        "cost": "$18000",
+        "src2" : "https://th.bing.com/th/id/OIP.M5OC8rLkzMOPkM1-LBAYAgHaEK?pid=ImgDet&w=690&h=388&rs=1",
+        "long" : "Rome is the capital city of Italy. It is also the capital of the Lazio region, the centre of the Metropolitan City of Rome, and a special comune named Comune di Roma Capitale. With 2,860,009 residents in 1,285 km (496.1 sq mi), Rome is the country's most populated comune and the third most populous city in the European Union by population within city limits."
+
+    },
+    {
+        "src" : "https://th.bing.com/th/id/OIP.C4b31bmZS-qv9uxdRYZUrQHaE6?pid=ImgDet&w=1400&h=928&rs=1",
+        "country": "Cansun",
+        "cost": "$40000",
+        "src2" : "https://th.bing.com/th/id/OIP.PVip5oQCrrobQyfp8kiwAwHaEW?pid=ImgDet&rs=1",
+        "long" : "Cancún, city and adjacent island resort area, Quintana Roo estado (state), southeastern Mexico. Ciudad Cancún (Cancún city) is located on the northeastern coast of the Yucatán Peninsula, facing the Caribbean Sea. It is essentially a service town for the L-shaped resort area of Isla Cancún (Cancún Island), which is 13 miles (21 km) long by 0.25 mile (400 metres) wide."
+        
+    },
+    {
+        "src" : "https://th.bing.com/th/id/OIP.H1KhMxqgP_k4-uxUtdhCSgHaJo?pid=ImgDet&rs=1",
+        "country": "Crete",
+        "cost": "$38000",
+        "src2" : "https://th.bing.com/th/id/OIP.aoDItVbqFAIStJLO9pAaVQHaE8?pid=ImgDet&rs=1",
+        "long" : "Crete (Greek: Κρήτη, Modern: Kríti [ˈkriti], Ancient: Krḗtē [krɛ̌ːtεː]) is the largest and most populous of the Greek islands, the 88th largest island in the world and the fifth largest island in the Mediterranean Sea, after Sicily, Sardinia, Cyprus, and Corsica. Crete rests about 160 km (99 mi) south of the Greek mainland, and about 100 km (62 mi) southwest of Anatolia. "
+
+    }
+]
