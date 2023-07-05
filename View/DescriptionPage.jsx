@@ -1,4 +1,4 @@
-import { Image, ImageBackground, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import { Image, ImageBackground, SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React, { useState } from 'react'
 import london from '../assets/LondonBridge.jpg'
 import next from '../assets/Next.png'
@@ -32,9 +32,11 @@ const DescriptionPage = () => {
             <View style={{ flex: 1, width: '100%', backgroundColor: '#fff' }}>
                 <View style={styles.ldnStyle}>
 
-                    <Image source={{uri:city.src2}} style={styles.ldnImgStyle} />
-                    <TouchableOpacity style={{ position: 'absolute' }} onPress={() => { navigation.navigate('info') }}>
-                        <Image source={next} style={styles.NextStyle} />
+                    <Image source={{uri:city.src2}} style={[styles.ldnImgStyle,{zIndex:1}]} />
+                    <TouchableOpacity style={{zIndex:100,position:'absolute',top:60,left:20,width:20,height:20}} onPress={() =>  {navigation.navigate('info') }}>
+                        <ImageBackground source={next} style={styles.NextStyle} >
+                            
+                        </ImageBackground>
                     </TouchableOpacity>
 
 
@@ -305,8 +307,7 @@ const styles = StyleSheet.create({
     NextStyle: {
         width: 23,
         height: 23,
-        marginLeft: 30,
-        marginTop: 35,
+        
         resizeMode: "contain",
     },
     favStyle: {
