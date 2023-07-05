@@ -1,4 +1,4 @@
-import { Button, Image, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native'
+import { Button, Image, SafeAreaView, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import option from '../assets/Option.png'
 import search from '../assets/SearchIcon.png'
@@ -22,12 +22,13 @@ const InfoView = () => {
     
 
     return (
+        <SafeAreaView style={{flex:1}}>
         <View style={styles.fullStyle}>
             <View style={styles.flxStyle}>
                 <Image style={styles.opt} source={option} />
                 <Text style={styles.TitStyle}> TripWayo </Text>
             </View>
-            <ScrollView showsVerticalScrollIndicator={false}>
+            <ScrollView style={{flex:1}} showsVerticalScrollIndicator={false}>
 
 
             <SearchBar  />
@@ -130,6 +131,7 @@ const InfoView = () => {
 
 
         </View>
+        </SafeAreaView>
 
 
 
